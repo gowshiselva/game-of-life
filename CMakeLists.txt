@@ -23,7 +23,7 @@ file(GLOB_RECURSE INCLUDE include/*.h)
 ADD_LIBRARY(core ${INCLUDE} ${SRC})
 
 # Adds .cpp with the main function to the boilerplate
-ADD_EXECUTABLE(game-of-life src/neural-network-main.cpp)
+ADD_EXECUTABLE(game-of-life src/game-of-life-main.cpp)
 
 # Links the library (core) to the executable (game-of-life)
 TARGET_LINK_LIBRARIES(game-of-life core)
@@ -47,8 +47,8 @@ file(GLOB_RECURSE TEST test/*.cpp)
 #target_link_libraries(tests
 #        pthread
 #        gtest
- #       gtest_main
- #       core)
+#        gtest_main
+ #      core)
 
 # Release x debug build# 
 #The -Werror tag forces warning as a compilation error
@@ -56,7 +56,7 @@ file(GLOB_RECURSE TEST test/*.cpp)
 # The -o2 tag in the release build optimizes the code
 # The -g tag in the non-release build enables the debugging code
 IF(RELEASE)
-    SET(CMAKE_CXX_FLAGS "-Wall -Werror -o2 -std=c++14")
+    SET(CMAKE_CXX_FLAGS "-Wall -Werror -o2 -std=c++17")
 ELSE()
-    SET(CMAKE_CXX_FLAGS "-g -Wall -Werror -std=c++14")
+    SET(CMAKE_CXX_FLAGS "-g -Wall -Werror -std=c++17")
 ENDIF()

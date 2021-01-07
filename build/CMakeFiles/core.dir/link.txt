@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/src/neural-network-main.cpp.o
+/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/src/board.cpp.o CMakeFiles/core.dir/src/game-of-life-main.cpp.o CMakeFiles/core.dir/src/game.cpp.o CMakeFiles/core.dir/src/rule.cpp.o
 /usr/bin/ranlib libcore.a

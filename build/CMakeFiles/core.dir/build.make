@@ -57,30 +57,75 @@ include CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core.dir/flags.make
 
-CMakeFiles/core.dir/src/neural-network-main.cpp.o: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/src/neural-network-main.cpp.o: ../src/neural-network-main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/neural-network-main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/neural-network-main.cpp.o -c "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/neural-network-main.cpp"
+CMakeFiles/core.dir/src/board.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/board.cpp.o: ../src/board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/board.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/board.cpp.o -c "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/board.cpp"
 
-CMakeFiles/core.dir/src/neural-network-main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/neural-network-main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/neural-network-main.cpp" > CMakeFiles/core.dir/src/neural-network-main.cpp.i
+CMakeFiles/core.dir/src/board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/board.cpp" > CMakeFiles/core.dir/src/board.cpp.i
 
-CMakeFiles/core.dir/src/neural-network-main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/neural-network-main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/neural-network-main.cpp" -o CMakeFiles/core.dir/src/neural-network-main.cpp.s
+CMakeFiles/core.dir/src/board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/board.cpp" -o CMakeFiles/core.dir/src/board.cpp.s
+
+CMakeFiles/core.dir/src/game-of-life-main.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/game-of-life-main.cpp.o: ../src/game-of-life-main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/src/game-of-life-main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/game-of-life-main.cpp.o -c "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game-of-life-main.cpp"
+
+CMakeFiles/core.dir/src/game-of-life-main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/game-of-life-main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game-of-life-main.cpp" > CMakeFiles/core.dir/src/game-of-life-main.cpp.i
+
+CMakeFiles/core.dir/src/game-of-life-main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/game-of-life-main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game-of-life-main.cpp" -o CMakeFiles/core.dir/src/game-of-life-main.cpp.s
+
+CMakeFiles/core.dir/src/game.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/game.cpp.o: ../src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/src/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/game.cpp.o -c "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game.cpp"
+
+CMakeFiles/core.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game.cpp" > CMakeFiles/core.dir/src/game.cpp.i
+
+CMakeFiles/core.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game.cpp" -o CMakeFiles/core.dir/src/game.cpp.s
+
+CMakeFiles/core.dir/src/rule.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/rule.cpp.o: ../src/rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/src/rule.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/rule.cpp.o -c "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/rule.cpp"
+
+CMakeFiles/core.dir/src/rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/rule.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/rule.cpp" > CMakeFiles/core.dir/src/rule.cpp.i
+
+CMakeFiles/core.dir/src/rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/rule.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/rule.cpp" -o CMakeFiles/core.dir/src/rule.cpp.s
 
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/src/neural-network-main.cpp.o"
+"CMakeFiles/core.dir/src/board.cpp.o" \
+"CMakeFiles/core.dir/src/game-of-life-main.cpp.o" \
+"CMakeFiles/core.dir/src/game.cpp.o" \
+"CMakeFiles/core.dir/src/rule.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
-libcore.a: CMakeFiles/core.dir/src/neural-network-main.cpp.o
+libcore.a: CMakeFiles/core.dir/src/board.cpp.o
+libcore.a: CMakeFiles/core.dir/src/game-of-life-main.cpp.o
+libcore.a: CMakeFiles/core.dir/src/game.cpp.o
+libcore.a: CMakeFiles/core.dir/src/rule.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

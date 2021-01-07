@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/neural-network-main.cpp" "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles/core.dir/src/neural-network-main.cpp.o"
+  "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/board.cpp" "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles/core.dir/src/board.cpp.o"
+  "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game-of-life-main.cpp" "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles/core.dir/src/game-of-life-main.cpp.o"
+  "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/game.cpp" "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles/core.dir/src/game.cpp.o"
+  "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/src/rule.cpp" "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles/core.dir/src/rule.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

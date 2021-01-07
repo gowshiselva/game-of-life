@@ -1,1 +1,1 @@
-/usr/bin/c++  -g -Wall -Werror -std=c++14  -rdynamic CMakeFiles/game-of-life.dir/src/neural-network-main.cpp.o  -o game-of-life  libcore.a 
+/usr/bin/c++  -g -Wall -Werror -std=c++17  -rdynamic CMakeFiles/game-of-life.dir/src/game-of-life-main.cpp.o  -o game-of-life  libcore.a 

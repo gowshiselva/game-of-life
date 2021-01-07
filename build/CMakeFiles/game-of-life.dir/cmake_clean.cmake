@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/game-of-life.dir/src/neural-network-main.cpp.o"
+  "CMakeFiles/game-of-life.dir/src/game-of-life-main.cpp.o"
   "game-of-life"
   "game-of-life.pdb"
 )

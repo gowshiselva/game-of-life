@@ -245,35 +245,116 @@ gtest/fast:
 	$(MAKE) -f third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build.make third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/neural-network-main.o: src/neural-network-main.cpp.o
+src/board.o: src/board.cpp.o
 
-.PHONY : src/neural-network-main.o
+.PHONY : src/board.o
 
 # target to build an object file
-src/neural-network-main.cpp.o:
-	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/src/neural-network-main.cpp.o
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/neural-network-main.cpp.o
-.PHONY : src/neural-network-main.cpp.o
+src/board.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/board.cpp.o
+.PHONY : src/board.cpp.o
 
-src/neural-network-main.i: src/neural-network-main.cpp.i
+src/board.i: src/board.cpp.i
 
-.PHONY : src/neural-network-main.i
+.PHONY : src/board.i
 
 # target to preprocess a source file
-src/neural-network-main.cpp.i:
-	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/src/neural-network-main.cpp.i
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/neural-network-main.cpp.i
-.PHONY : src/neural-network-main.cpp.i
+src/board.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/board.cpp.i
+.PHONY : src/board.cpp.i
 
-src/neural-network-main.s: src/neural-network-main.cpp.s
+src/board.s: src/board.cpp.s
 
-.PHONY : src/neural-network-main.s
+.PHONY : src/board.s
 
 # target to generate assembly for a file
-src/neural-network-main.cpp.s:
-	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/src/neural-network-main.cpp.s
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/neural-network-main.cpp.s
-.PHONY : src/neural-network-main.cpp.s
+src/board.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/board.cpp.s
+.PHONY : src/board.cpp.s
+
+src/game-of-life-main.o: src/game-of-life-main.cpp.o
+
+.PHONY : src/game-of-life-main.o
+
+# target to build an object file
+src/game-of-life-main.cpp.o:
+	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/src/game-of-life-main.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/game-of-life-main.cpp.o
+.PHONY : src/game-of-life-main.cpp.o
+
+src/game-of-life-main.i: src/game-of-life-main.cpp.i
+
+.PHONY : src/game-of-life-main.i
+
+# target to preprocess a source file
+src/game-of-life-main.cpp.i:
+	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/src/game-of-life-main.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/game-of-life-main.cpp.i
+.PHONY : src/game-of-life-main.cpp.i
+
+src/game-of-life-main.s: src/game-of-life-main.cpp.s
+
+.PHONY : src/game-of-life-main.s
+
+# target to generate assembly for a file
+src/game-of-life-main.cpp.s:
+	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/src/game-of-life-main.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/game-of-life-main.cpp.s
+.PHONY : src/game-of-life-main.cpp.s
+
+src/game.o: src/game.cpp.o
+
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
+
+src/game.i: src/game.cpp.i
+
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
+src/rule.o: src/rule.cpp.o
+
+.PHONY : src/rule.o
+
+# target to build an object file
+src/rule.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/rule.cpp.o
+.PHONY : src/rule.cpp.o
+
+src/rule.i: src/rule.cpp.i
+
+.PHONY : src/rule.i
+
+# target to preprocess a source file
+src/rule.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/rule.cpp.i
+.PHONY : src/rule.cpp.i
+
+src/rule.s: src/rule.cpp.s
+
+.PHONY : src/rule.s
+
+# target to generate assembly for a file
+src/rule.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/rule.cpp.s
+.PHONY : src/rule.cpp.s
 
 # Help Target
 help:
@@ -294,9 +375,18 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/neural-network-main.o"
-	@echo "... src/neural-network-main.i"
-	@echo "... src/neural-network-main.s"
+	@echo "... src/board.o"
+	@echo "... src/board.i"
+	@echo "... src/board.s"
+	@echo "... src/game-of-life-main.o"
+	@echo "... src/game-of-life-main.i"
+	@echo "... src/game-of-life-main.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
+	@echo "... src/rule.o"
+	@echo "... src/rule.i"
+	@echo "... src/rule.s"
 .PHONY : help
 
 

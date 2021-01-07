@@ -138,12 +138,12 @@ third-party/googletest/googlemock/gtest/clean: third-party/googletest/googlemock
 CMakeFiles/game-of-life.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/depend
 	$(MAKE) -f CMakeFiles/game-of-life.dir/build.make CMakeFiles/game-of-life.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=3,4 "Built target game-of-life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=6,7 "Built target game-of-life"
 .PHONY : CMakeFiles/game-of-life.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/game-of-life.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/game-of-life.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" 0
 .PHONY : CMakeFiles/game-of-life.dir/rule
@@ -165,12 +165,12 @@ CMakeFiles/game-of-life.dir/clean:
 CMakeFiles/core.dir/all:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/depend
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=1,2 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target core"
 .PHONY : CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" 0
 .PHONY : CMakeFiles/core.dir/rule
@@ -193,7 +193,7 @@ third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/all: third-party/goo
 third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/all: third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=10,11 "Built target gmock_main"
 .PHONY : third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -220,7 +220,7 @@ third-party/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 third-party/googletest/googlemock/CMakeFiles/gmock.dir/all: third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f third-party/googletest/googlemock/CMakeFiles/gmock.dir/build.make third-party/googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f third-party/googletest/googlemock/CMakeFiles/gmock.dir/build.make third-party/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=5,6 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=8,9 "Built target gmock"
 .PHONY : third-party/googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +247,7 @@ third-party/googletest/googlemock/CMakeFiles/gmock.dir/clean:
 third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=14,15 "Built target gtest_main"
 .PHONY : third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -274,7 +274,7 @@ third-party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
 third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build.make third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build.make third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Documents and Settings/Gowshi/Documents/cplusplus/game-of-life/build/CMakeFiles" --progress-num=12,13 "Built target gtest"
 .PHONY : third-party/googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
